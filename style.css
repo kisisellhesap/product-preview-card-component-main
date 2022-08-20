@@ -121,6 +121,15 @@
     gap: 1rem;
     border-radius: 10px;
     background-color: var(--Darkcyan);
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .card-add:hover {
+    background-color: var(--Verydarkblue);
+  }
+  .card-add:focus {
+    border: 1px solid #000;
   }
   .card-add p {
     color: var(--Cream);
